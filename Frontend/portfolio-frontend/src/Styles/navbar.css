@@ -1,0 +1,63 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: flex-end;
+    padding: 30px;
+    border-bottom: var(--line-thickness) solid var(--line-color); /* Match hr style */
+    list-style: none; /* Remove default list bullets */
+}
+
+.navbar a , span{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: var(--highlight-color); /* Add a hover effect (define --highlight-color) */
+}
+
+.navbar li {
+    position: relative; /* Required for dropdown positioning */
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Align dropdown below the parent item */
+    right: 0;
+    list-style: none; /* Remove default list bullets */
+    background-color: white; /* Background for dropdown */
+    border: 1px solid var(--line-color); /* Match navbar's border style */
+    border-radius: 5px;
+    padding: 10px 0; /* Spacing around items */
+    display: none; /* Hidden by default */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Dropdown Items */
+.dropdown-menu li {
+    padding: 10px 20px; /* Space around each link */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.dropdown-menu li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--highlight-background-color); /* Background hover effect */
+    color: var(--highlight-color); /* Text hover effect */
+}
+
+/* Show the Dropdown on Hover */
+.navbar li:hover .dropdown-menu {
+    display: block; /* Show dropdown when hovering over parent */
+}

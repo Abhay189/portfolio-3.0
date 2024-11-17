@@ -1,0 +1,119 @@
+
+
+
+hr {
+    border: none;
+    height: var(--line-thickness); /* Use the same thickness */
+    background-color: var(--line-color); /* Use the same color */
+    width: 100%; /* Optional: Adjust based on your layout */
+    margin: 0; /* Optional: Reset default margins */
+}
+
+.project-page{
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+
+
+.project-img-section , .project-description-section{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    gap: 50px;
+}
+
+.project-description-section{
+    margin: 0px 30px;
+    min-width: 400px;
+    padding: 0px 20px;
+    border-left: var(--line-thickness) solid var(--line-color); /* Match hr style */
+}
+
+
+
+@media (max-width: 1300px) {
+    .project-description-section {
+        border-left: none; /* Remove the left border */
+    }
+}
+
+.project-img-section{
+    font-size: var(--title-font-size);
+}
+
+.project-description{
+
+    font-size: var(--para-font-size);
+    max-width: 800px;
+}
+
+.project-description-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+swiper-container {
+    width: 100%;
+    height: 600px; 
+    max-width: 800px;
+    max-height: 600px;
+    border-radius: 20px;
+}
+
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.tech-stack-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tech-stack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.tech-stack-list-elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tech-name{
+    font-size: 15px;
+}
+
+.tech-stack-list-elem i {
+    font-size: 60px; /* Adjust the size as needed */
+    transition: transform 0.3s ease-in-out; /* Optional: Add hover effect */
+  }
+  
+.tech-stack-list-elem i:hover {
+transform: scale(1.2); /* Optional: Enlarge slightly on hover */
+}
+
+
+

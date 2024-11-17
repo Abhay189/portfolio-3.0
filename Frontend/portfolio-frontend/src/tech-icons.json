@@ -1,0 +1,31 @@
+{
+  "library": {
+    "css": "<link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'>"
+  },
+  "icons": {
+    "HTML": "devicon-html5-plain colored",
+    "CSS": "devicon-css3-plain colored",
+    "React": "devicon-react-original colored",
+    "Python": "devicon-python-plain colored",
+    "AWS": "devicon-amazonwebservices-plain-wordmark colored",
+    "Flask": "devicon-flask-original colored",
+    "MongoDB": "devicon-mongodb-plain colored",
+    "Django": "devicon-django-plain colored",
+    "Redis": "devicon-redis-plain colored",
+    "JavaScript": "devicon-javascript-plain colored",
+    "Tailwind CSS": "devicon-tailwindcss-plain colored",
+    "Google Cloud": "devicon-googlecloud-plain colored",
+    "C++": "devicon-cplusplus-plain colored",
+    "C": "devicon-c-plain colored",
+    "Java": "devicon-java-plain colored",
+    "MySQL": "devicon-mysql-plain colored",
+    "DynamoDB": "devicon-dynamodb-plain colored", 
+    "Figma": "devicon-figma-plain colored",
+    "Linux": "devicon-linux-plain colored",
+    "C#": "devicon-csharp-plain colored",
+    "Unity": "devicon-unity-original colored",
+    "Godot": "devicon-godot-plain colored",
+    "ASP.NET": "devicon-dotnetcore-plain colored",
+    "PostgreSQL": "devicon-postgresql-plain colored"
+  }
+}
