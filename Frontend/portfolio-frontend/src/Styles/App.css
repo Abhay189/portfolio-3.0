@@ -4,6 +4,8 @@
   --line-color: black;
   --title-font-size: 30px;
   --para-font-size: 20px;
+  --pic-border-radius: 20px;
+  --text-color: black;
 }
 
 hr {
@@ -43,22 +45,38 @@ hr {
   flex: 1;
 }
 
-
 .homepage-title-section{
   width: 100%;
 }
 
 .homepage-title-section h3{
   font-size: 1.5em;
+  color: var(--text-color);
 }
 
-.homepage-title-inner-section{
-  font-size: 3.5em;
-  margin: 0px;
-}
-
-.homepage-title-inner-section h1{
+.homepage-title-inner-section h1 {
   margin-top: 20px;
   margin-bottom: 0px;
+  color: var(--text-color);
 }
 
+.Typewriter__wrapper {
+  color: var(--text-color);
+  font-size: 3.5em; /* Match the size of the other text */
+  font-weight: inherit; /* Ensure the weight is consistent */
+  line-height: inherit; /* Ensure proper spacing */
+}
+
+
+.profile-pic {
+  width: 400px; /* Adjust the size as needed */
+  height: 400px; /* Keep it square for circular effects */
+  border-radius: 20px; /* Circular image */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.profile-pic:hover {
+  transform: scale(1.005); /* Slight zoom on hover */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

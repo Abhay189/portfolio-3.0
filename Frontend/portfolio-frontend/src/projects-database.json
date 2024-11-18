@@ -39,7 +39,7 @@
   },
   "jobpair": {
     "name": "JobpAIr",
-    "tech-stack": ["React", "JavaScript", "Django", "PostgreSQL", "OpenAI API", "IBM Watson", "HTML", "CSS"],
+    "tech-stack": ["React", "JavaScript", "Django", "PostgreSQL", "HTML", "CSS"],
     "description": {
       "objective": "Developed an AI-powered platform to simplify and streamline the job application process for users by automating repetitive tasks and providing intelligent insights.",
       "keyFeatures": [
@@ -86,7 +86,7 @@
     ]
   },
   "scholair": {
-    "name": "Scholair",
+    "name": "ScholAIr",
     "tech-stack": ["React", "JavaScript", "Django", "PostgreSQL", "HTML", "CSS"],
     "description": {
       "objective": "Developed a platform to help students find scholarships, track their applications, and access curated resources for academic success.",
@@ -120,6 +120,54 @@
       "/Scholair-Images/scholarship page.png",
       "/Scholair-Images/scholarships.png",
       "/Scholair-Images/tracking.png"
+    ]
+  },
+  "flamesPlanner": {
+    "name": "Flames Planner",
+    "tech-stack": ["C#", "WPF", "Google Maps API", "SQLite"],
+    "description": {
+      "objective": "Developed a Windows application to assist users in managing itineraries, tracking events in Calgary, and creating custom plans.",
+      "keyFeatures": [
+        "A user-friendly interface built with WPF to visualize planned events over a day, week, or month.",
+        "Ability to create and manage custom events with detailed information such as time, location, and descriptions.",
+        "A map interface integrated with Google Maps API to showcase all upcoming events in Calgary.",
+        "Option to add public events from the map interface to the user's personal itinerary.",
+        "Event filtering based on categories, dates, and locations for a more personalized experience.",
+        "Local data storage using SQLite to save user preferences and event details for offline use."
+      ],
+      "myContribution": "Developed the WPF-based UI for event visualization, integrated the Google Maps API for location-based features, and implemented the SQLite database for offline storage and efficient data retrieval.",
+      "challengesAndSolutions": [
+        {
+          "challenge": "Designing an intuitive interface to display events across multiple timeframes (day, week, month).",
+          "solution": "Created a dynamic calendar component using WPF controls, allowing users to toggle between different views seamlessly."
+        },
+        {
+          "challenge": "Integrating the Google Maps API with a Windows application.",
+          "solution": "Used the Google Maps API within a WebView component, enabling dynamic map interactions and event overlays."
+        },
+        {
+          "challenge": "Ensuring consistent data storage and retrieval for offline use.",
+          "solution": "Implemented a robust SQLite schema to handle event details and user preferences while minimizing data redundancy."
+        }
+      ]
+    },
+    "images": [
+      "/Flames-planner-Images/Custom Event Diaplay.png",
+      "/Flames-planner-Images/events interface.png",
+      "/Flames-planner-Images/Iternary after custom event.png",
+      "/Flames-planner-Images/login screen.png",
+      "/Flames-planner-Images/main screen.png",
+      "/Flames-planner-Images/Map event clicked.png",
+      "/Flames-planner-Images/map interface.png",
+      "/Flames-planner-Images/screen help overlay.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174000.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174050.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174359.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174442.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174500.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174558.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174642.png",
+      "/Flames-planner-Images/Screenshot 2024-11-17 174721.png"
     ]
   }
 }

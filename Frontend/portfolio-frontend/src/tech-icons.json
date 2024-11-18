@@ -26,6 +26,9 @@
     "Unity": "devicon-unity-original colored",
     "Godot": "devicon-godot-plain colored",
     "ASP.NET": "devicon-dotnetcore-plain colored",
-    "PostgreSQL": "devicon-postgresql-plain colored"
+    "PostgreSQL": "devicon-postgresql-plain colored",
+    "WPF" : "devicon-dotnetcore-plain colored",
+    "Google Maps API" : "devicon-google-plain colored",
+    "SQLite" : "devicon-sqlite-plain-wordmark colored"
   }
 }

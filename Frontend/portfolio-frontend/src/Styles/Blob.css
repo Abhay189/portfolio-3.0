@@ -1,0 +1,38 @@
+:root {
+    --blob-color: linear-gradient(to right, aquamarine, mediumpurple);
+    --blob-size: 200px;
+  }
+  
+  #blob-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place blob behind all other elements */
+  }
+  
+  #blob {
+    animation: rotate360 20s infinite;
+    background: var(--blob-color);
+    filter: blur(calc(var(--blob-size) / 2.15));
+    width: var(--blob-size);
+    height: var(--blob-size);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+  }
+  
+  @keyframes rotate360 {
+    from {
+      rotate: 0deg;
+    }
+    50% {
+      scale: 1 1.15;
+    }
+    to {
+      rotate: 360deg;
+    }
+  }

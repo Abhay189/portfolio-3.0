@@ -4,8 +4,7 @@ import Homepage from './homepage';
 import Project from './projects';
 import './Styles/navbar.css';
 import projectsData from './projects-database.json';
-
-
+import Blob from "./Blob"; // Import the Blob component
 
 function App() {
   const [projectNames, setProjectNames] = useState([]);
@@ -17,6 +16,7 @@ function App() {
 
   return (
     <>
+     <Blob /> 
       <ul className="navbar">
         <li><Link to="/">Home</Link></li>
         <li className="dropdown">
@@ -30,6 +30,7 @@ function App() {
           </ul>
         </li>
       </ul>
+      
 
       <Routes>
         <Route path="/" element={<Homepage />} />

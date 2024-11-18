@@ -14,6 +14,9 @@ hr {
     flex-wrap: wrap;
 }
 
+.project-name{
+    color: var(--text-color);
+}
 
 .project-img-section , .project-description-section{
     flex: 1;
@@ -23,6 +26,7 @@ hr {
 }
 
 .project-description-section{
+    color: var(--text-color);
     margin: 0px 30px;
     min-width: 400px;
     padding: 0px 20px;
@@ -103,6 +107,7 @@ swiper-slide img {
 }
 
 .tech-name{
+    color: var(--text-color);
     font-size: 15px;
 }
 
